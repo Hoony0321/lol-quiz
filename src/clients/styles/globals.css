@@ -1,0 +1,23 @@
+body {
+  font-family: "Pretendard Variable", Pretendard, -apple-system, system-ui,
+    sans-serif;
+}
+
+/* 기본 데스크탑 환경 */
+html {
+  font-size: 62.5%; /* 1rem = 10px */
+}
+
+/* 태블릿 (가로 768px 이하) */
+@media (max-width: 768px) {
+  html {
+    font-size: 56.25%; /* 1rem = 9px */
+  }
+}
+
+/* 모바일 (가로 480px 이하) */
+@media (max-width: 480px) {
+  html {
+    font-size: 50%; /* 1rem = 8px */
+  }
+}
